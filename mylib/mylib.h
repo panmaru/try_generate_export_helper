@@ -14,6 +14,6 @@ private:
 
 MYLIB_EXPORT int factorial(int n);
 
-MYLIB_DEPRECATED MYLIB_EXPORT int legacy_factorial(int n);
+MYLIB_DEPRECATED_EXPORT int legacy_factorial(int n);
 
 int internal_helper(int n);
